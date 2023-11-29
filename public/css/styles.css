@@ -24,7 +24,7 @@
     --info-button-active: #3A7CFD;
 }
 
-.body.dark{
+body.dark{
     --bg-header-mobile: url(../imagens/bg-header-mobile-dark.png);
     --bg-header-desktop: url(../imagens/bg-header-desktop-dark.png);
     --input-box-shadow: rgba(0,0,0,0.50);
@@ -67,6 +67,12 @@ header div div{
     justify-content: space-between;
 
     margin-bottom: 2.5rem;
+}
+
+header button {
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 header div h1{
