@@ -21,3 +21,14 @@ const conexao = mysql.createConnection({
     port: 3306
 })
 
+conexao.connect((erro) => {
+    if (erro) {
+        return console.log(erro)
+    }
+})
+
+console.log("LALALALASQL")
+
+app.listen(3000, () => {
+    console.log("Servidor rodando na porta 3000!")
+})
